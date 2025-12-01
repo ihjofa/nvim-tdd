@@ -1,0 +1,29 @@
+# Neovim plugin development
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Lua compiled files
+*.luac
+
+# Testing
+.tests/
+tests/plenary/
+
+# Documentation generation
+doc/tags
+
+# Debug files
+*.log
+
+# Editor directories
+.idea/
+.vscode/
+
+# Dependencies (if using luarocks or similar)
+lua_modules/
+luarocks/
+
+# CI/Build artifacts
+.github/workflows/cache/
